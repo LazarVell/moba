@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Moba - besplatna škola programiranja uz AI",
+    "description": "Besplatna predavanja iz programiranja uživo na Twitch-u i YouTube-u. Učimo uz AI od prvog dana, a posle edukacije zajedno pravimo projekte koji rešavaju prave probleme."
+  },
+  "nav": {
+    "problem": "Problem",
+    "pillars": "Kako radimo",
+    "plan": "Plan",
+    "ai": "AI first",
+    "projects": "Projekti",
+    "live": "Uživo",
+    "language": "Jezik"
+  },
+  "hero": {
+    "eyebrow": "Besplatna škola programiranja · uživo na Twitch-u",
+    "titleLead": "Nauči da programiraš za svet u kome i AI piše kod.",
+    "titleAccent": "Besplatno, od osnova do projekata koje ljudi zaista koriste.",
+    "lead": "Predavanja su uživo na Twitch-u, a snimci ostaju na YouTube-u. Učiš uz Claude framework koji sam dizajnirao za tebe. On te vodi kroz probleme, ali ih ne rešava umesto tebe. Kad savladaš osnove, zajedno pravimo projekte koji rešavaju prave probleme.",
+    "ctaPrimary": "Kako radimo",
+    "ctaSecondary": "Zašto još jedan kurs?",
+    "demo": {
+      "you": "ti",
+      "ai": "claude",
+      "lines": [
+        {
+          "who": "you",
+          "text": "Zašto mi zbir korpe vraća \"01200850\"?",
+          "code": "korpa.reduce((zbir, s) => zbir + s.cena, 0);"
+        },
+        {
+          "who": "ai",
+          "text": "Neću ti odmah reći. Ispiši typeof s.cena i pogledaj šta dobijaš."
+        },
+        {
+          "who": "you",
+          "tone": "ok",
+          "text": "string! Lepi ih kao tekst umesto da sabira. Treba Number(s.cena)."
+        },
+        {
+          "who": "ai",
+          "text": "Tačno. Sad znaš i zašto, a ne samo kako."
+        }
+      ],
+      "caption": "Framework ne piše kod umesto tebe. Vodi te dok sam ne razumeš."
+    }
+  },
+  "name": {
+    "label": "Zašto Moba",
+    "definition": "Stari srpski običaj uzajamne pomoći. Kad je nekome trebalo da požanje žito, pokosi livadu ili podigne kuću, komšije su se okupljale i radile zajedno, bez naknade. Posao koji jedna porodica ne bi mogla sama završavao se zajedničkim snagama.",
+    "why": "Mi radimo isto. Učimo zajedno i besplatno, a onda zajedno gradimo ono što je ljudima oko nas potrebno.",
+    "principle": "Mnogi kursevi te ubeđuju da programiranje donosi odličnu zaradu, a onda ti naplaćuju da ga naučiš. Meni to nema smisla. Ako znanje zaista vredi, onaj ko ga ima ne mora da ga prodaje. Predajemo zato što želimo da podelimo taj dar sa drugima, a ne da bismo zaradili od predavanja.",
+    "support": "To ne znači da ćemo odbiti donacije, ulaganja ili drugi vid podrške od onih koji žele da pomognu. Suština je da znanje nikada ne uslovljavamo obaveznom naknadom.",
+    "quote": "„Svoje talente dajem nesebično, i finansijski sam bogato nagrađen.“",
+    "quoteSource": "Džozef Marfi, Moć podsvesti"
+  },
+  "problem": {
+    "label": "Problem",
+    "title": "Kurseva programiranja u Srbiji ima mnogo. Većina ima iste tri mane.",
+    "items": [
+      {
+        "title": "Skupi su",
+        "text": "Dobar kurs često košta više nego što većina može da izdvoji. Ko nema novca, ostaje bez šanse, koliko god da je motivisan."
+      },
+      {
+        "title": "Staju na osnovama",
+        "text": "Posle kursa ostaju sertifikat i nekoliko vežbi. Nema pravog projekta, tima ni iskustva koje možeš da pokažeš."
+      },
+      {
+        "title": "AI je na margini",
+        "text": "AI je postao deo svakodnevnog posla programera, a retko koji kurs ga koristi ozbiljno. Ako ga i pomenu, to je usputno. Ili ga koriste da završe ceo projekat bez pravog objašnjenja, što šteti procesu učenja."
+      }
+    ]
+  },
+  "pillars": {
+    "label": "Kako radimo",
+    "title": "Tri stvari koje radimo drugačije",
+    "items": [
+      {
+        "title": "Besplatno. Ceo sadržaj.",
+        "text": "Predavanja držimo uživo na Twitch-u, gde pitanja postavljaš u realnom vremenu. Svaki snimak zatim ide na YouTube. Niko ne plaća ni dinara da bi pristupio bilo čemu."
+      },
+      {
+        "title": "AI first",
+        "text": "Od prvog dana radiš uz Claude i framework koji sam napravio za učenje. On ne rešava probleme umesto tebe, već te tera da ih razumeš. Na njemu počiva svaki naš projekat."
+      },
+      {
+        "title": "Pravi projekti, pravi problemi",
+        "text": "Posle edukacije zajedno radimo na pravim projektima. Vidiš kako projekat izgleda od ideje do puštanja u rad."
+      }
+    ]
+  },
+  "plan": {
+    "label": "Plan",
+    "title": "Prvo znanje, pa iskustvo",
+    "intro": "Program ima dve faze, jednu za drugom. Edukacija ti daje znanje, a projekti iskustvo koje se ne stiče na predavanjima. Tek zajedno od tebe prave programera.",
+    "benefitsLabel": "Šta dobijaš",
+    "bridge": "Kad savladaš osnove",
+    "phases": [
+      {
+        "tag": "Faza 1",
+        "title": "Edukacija",
+        "subtitle": "Učiš temelje, uživo i besplatno.",
+        "text": "Predavanja su uživo na Twitch-u, od osnova veba do full-stack aplikacija. Između predavanja vežbaš uz Claude framework, koji te vodi kroz svaki problem dok ga ne razumeš.",
+        "benefits": [
+          "Znanje koje razumeš, a ne kod koji si prepisao.",
+          "Naviku da AI koristiš kao alat, a ne kao prečicu.",
+          "Snimak svakog predavanja, da se vratiš kad god ti zatreba.",
+          "Ljude koji uče isto što i ti, pa niko ne uči sam."
+        ]
+      },
+      {
+        "tag": "Faza 2",
+        "title": "Projekti",
+        "subtitle": "Pravimo nešto što ima pravu vrednost.",
+        "text": "Kad savladaš osnove, zajedno biramo projekat koji rešava neki postojeći problem i pravimo ga od nule. Ne pravimo vežbu za fioku, već nešto što će ljudi zaista koristiti.",
+        "benefits": [
+          "Glas u izboru projekta koji pravimo.",
+          "Iskustvo rešavanja problema koji zaista postoji.",
+          "Uvid u ceo put projekta, od nule do puštanja u rad.",
+          "Projekat koji možeš da pokažeš na razgovoru za posao."
+        ]
+      }
+    ]
+  },
+  "ai": {
+    "label": "AI first",
+    "title": "Claude framework: AI koji te uči, a ne radi umesto tebe",
+    "intro": "Framework pravim za Claude, AI asistenta kompanije Anthropic. Još je u izradi, a ovo su principi na kojima ga gradim.",
+    "items": [
+      {
+        "title": "Pitanje umesto gotovog rešenja.",
+        "text": "Kad zapneš, ne dobijaš kod. Dobijaš pitanja i tragove koji te vode dok sam ne dođeš do rešenja."
+      },
+      {
+        "title": "Učiš na problemu koji rešavaš.",
+        "text": "Nema izmišljenih vežbi. Učiš baš ono što ti treba za zadatak ispred tebe, u trenutku kad ti treba."
+      },
+      {
+        "title": "Svaki red moraš da umeš da objasniš.",
+        "text": "Pre nego što nastaviš, objašnjavaš šta tvoj kod radi i zašto. Kod koji ne razumeš nije tvoj."
+      },
+      {
+        "title": "Isti alat na času i na projektu.",
+        "text": "Framework je osnova svakog našeg projekta, pa navike stečene na predavanjima nosiš direktno u pravi rad."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projekti",
+    "title": "Šta pravimo? Odlučujemo zajedno.",
+    "intro": "Edukacija nije kraj, već priprema. Posle nje pravimo projekte koje biramo na osnovu predloga problema iz svakodnevnog života.",
+    "stages": [
+      {
+        "title": "Predlažeš",
+        "text": "Svako može da predloži problem koji vredi rešiti: u svom gradu, struci ili zajednici."
+      },
+      {
+        "title": "Biramo zajedno",
+        "text": "Predloge razmatramo javno, a polaznici odlučuju koji projekat pravimo."
+      },
+      {
+        "title": "Gradimo",
+        "text": "Ja gradim projekat i postavljam zadatke uz pomoć učesnika. Svi mogu da prate kako projekat nastaje, korak po korak."
+      },
+      {
+        "title": "Puštamo u rad",
+        "text": "Komercijalni proizvod ili javno dobro. Bitno je da ljudima donosi realnu vrednost."
+      }
+    ]
+  },
+  "live": {
+    "label": "Uživo",
+    "title": "Uživo na Twitch-u, zauvek na YouTube-u",
+    "intro": "Kanali se otvaraju uskoro. Linkove ćemo objaviti ovde.",
+    "backToTop": "Nazad na vrh",
+    "soon": "Uskoro",
+    "channels": [
+      {
+        "name": "Twitch",
+        "text": "Predavanja uživo. Pitanja iz chata su deo časa, dok učimo zajedno."
+      },
+      {
+        "name": "YouTube",
+        "text": "Snimak svakog predavanja, da učiš svojim tempom i vratiš se kad god ti treba."
+      }
+    ]
+  },
+  "footer": {
+    "credits": "Edukativni sadržaj se zasniva na <odin>The Odin Project</odin>, uz prevod, prilagođavanje i dodatke za rad sa AI-jem. Objavljen je pod licencom <license>CC BY-NC-SA 4.0</license>.",
+    "tagline": "Moba · besplatna škola programiranja"
+  }
+}

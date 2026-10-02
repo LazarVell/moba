@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Moba - a free AI-first coding school",
+    "description": "Free programming lectures, live on Twitch and recorded on YouTube. We learn with AI from day one, then build projects together that solve real problems."
+  },
+  "nav": {
+    "problem": "Problem",
+    "pillars": "How we work",
+    "plan": "Plan",
+    "ai": "AI first",
+    "projects": "Projects",
+    "live": "Live",
+    "language": "Language"
+  },
+  "hero": {
+    "eyebrow": "Free coding school · live on Twitch",
+    "titleLead": "Learn to code for a world where AI writes code too.",
+    "titleAccent": "Free, from the basics to projects people actually use.",
+    "lead": "Lectures stream live on Twitch, and the recordings stay on YouTube. You learn with a Claude framework I designed for you. It walks you through problems but doesn't solve them for you. Once you have the basics, we build projects together that solve real problems.",
+    "ctaPrimary": "How we work",
+    "ctaSecondary": "Why another course?",
+    "demo": {
+      "you": "you",
+      "ai": "claude",
+      "lines": [
+        {
+          "who": "you",
+          "text": "Why does my cart total return \"01200850\"?",
+          "code": "cart.reduce((sum, item) => sum + item.price, 0);"
+        },
+        {
+          "who": "ai",
+          "text": "I won't tell you yet. Log typeof item.price and see what you get."
+        },
+        {
+          "who": "you",
+          "tone": "ok",
+          "text": "string! It's joining them as text instead of adding. I need Number(item.price)."
+        },
+        {
+          "who": "ai",
+          "text": "Exactly. Now you know why, not just how."
+        }
+      ],
+      "caption": "The framework doesn't write code for you. It guides you until you understand."
+    }
+  },
+  "name": {
+    "label": "Why Moba",
+    "definition": "An old Serbian custom of mutual help. When someone needed to harvest wheat, mow a meadow or build a house, the neighbors gathered and worked together, without pay. Work one family couldn't manage alone got done by everyone together.",
+    "why": "We do the same. We learn together, for free, and then together we build what the people around us need.",
+    "principle": "Many courses convince you that programming pays very well, and then charge you to learn it. That makes no sense to me. If knowledge is truly valuable, whoever has it doesn't need to sell it. We teach because we want to share that gift with others, not to earn from the lectures.",
+    "support": "That doesn't mean we'll turn down donations, investment or other support from those who want to help. The point is that we never make knowledge conditional on a mandatory fee.",
+    "quote": "“I give of my talents freely, and I am wonderfully blessed financially.”",
+    "quoteSource": "Joseph Murphy, The Power of Your Subconscious Mind"
+  },
+  "problem": {
+    "label": "Problem",
+    "title": "Serbia has plenty of coding courses. Most share the same three flaws.",
+    "items": [
+      {
+        "title": "They're expensive",
+        "text": "A good course often costs more than most people can spare. Without the money, you're left out, however motivated you are."
+      },
+      {
+        "title": "They stop at the basics",
+        "text": "You finish with a certificate and a few exercises. No real project, no team, no experience you can show."
+      },
+      {
+        "title": "AI is an afterthought",
+        "text": "AI is now part of a developer's everyday work, yet few courses use it seriously. If they mention it at all, it's in passing. Or they use it to finish the whole project without a proper explanation, which undermines learning."
+      }
+    ]
+  },
+  "pillars": {
+    "label": "How we work",
+    "title": "Three things we do differently",
+    "items": [
+      {
+        "title": "Free. All of it.",
+        "text": "Lectures stream live on Twitch, where you ask questions in real time. Every recording then goes to YouTube. Nobody pays a single dinar to access anything."
+      },
+      {
+        "title": "AI first",
+        "text": "From day one you work with Claude and a framework I built for learning. It doesn't solve problems for you; it makes you understand them. Every project we build rests on it."
+      },
+      {
+        "title": "Real projects, real problems",
+        "text": "After the lectures, we work on real projects together. You see what a project looks like from idea to launch."
+      }
+    ]
+  },
+  "plan": {
+    "label": "Plan",
+    "title": "Knowledge first, then experience",
+    "intro": "The program has two phases, one after the other. The lectures give you knowledge; the projects give you experience you can't get from lectures. Together they make you a developer.",
+    "benefitsLabel": "What you get",
+    "bridge": "Once you have the basics",
+    "phases": [
+      {
+        "tag": "Phase 1",
+        "title": "Learning",
+        "subtitle": "You learn the foundations, live and for free.",
+        "text": "Lectures stream live on Twitch, from web basics to full-stack applications. Between lectures you practice with the Claude framework, which guides you through every problem until you understand it.",
+        "benefits": [
+          "Knowledge you understand, not code you copied.",
+          "The habit of using AI as a tool, not a shortcut.",
+          "A recording of every lecture to come back to whenever you need.",
+          "People learning the same things, so nobody learns alone."
+        ]
+      },
+      {
+        "tag": "Phase 2",
+        "title": "Projects",
+        "subtitle": "We build something of real value.",
+        "text": "Once you have the basics, we pick a project together that solves an existing problem, and we build it from scratch. Not an exercise that ends up in a drawer, but something people will actually use.",
+        "benefits": [
+          "A say in which project we build.",
+          "Experience solving a problem that actually exists.",
+          "A view of a project's whole journey, from scratch to launch.",
+          "A project you can show in a job interview."
+        ]
+      }
+    ]
+  },
+  "ai": {
+    "label": "AI first",
+    "title": "The Claude framework: AI that teaches you, not works for you",
+    "intro": "I'm building the framework for Claude, Anthropic's AI assistant. It's still in progress; these are the principles behind it.",
+    "items": [
+      {
+        "title": "A question instead of a finished answer.",
+        "text": "When you're stuck, you don't get code. You get questions and hints that lead you until you reach the solution yourself."
+      },
+      {
+        "title": "You learn from the problem you're solving.",
+        "text": "No made-up exercises. You learn exactly what the task in front of you needs, right when you need it."
+      },
+      {
+        "title": "You must be able to explain every line.",
+        "text": "Before moving on, you explain what your code does and why. Code you don't understand isn't yours."
+      },
+      {
+        "title": "The same tool in class and on the project.",
+        "text": "The framework underpins every project we build, so the habits you form in lectures carry straight into real work."
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "title": "What do we build? We decide together.",
+    "intro": "The lectures aren't the end; they're the preparation. Afterwards we build projects chosen from proposed problems in everyday life.",
+    "stages": [
+      {
+        "title": "You propose",
+        "text": "Anyone can propose a problem worth solving: in their town, their field or their community."
+      },
+      {
+        "title": "We choose together",
+        "text": "Proposals are discussed in the open, and participants decide which project we build."
+      },
+      {
+        "title": "We build",
+        "text": "I build the project and set the tasks, with help from participants. Everyone can follow along as the project comes together, step by step."
+      },
+      {
+        "title": "We ship",
+        "text": "A commercial product or a public good. What matters is that it brings people real value."
+      }
+    ]
+  },
+  "live": {
+    "label": "Live",
+    "title": "Live on Twitch, forever on YouTube",
+    "intro": "The channels open soon. We'll post the links here.",
+    "backToTop": "Back to top",
+    "soon": "Soon",
+    "channels": [
+      {
+        "name": "Twitch",
+        "text": "Live lectures. Questions from the chat are part of the class, as we learn together."
+      },
+      {
+        "name": "YouTube",
+        "text": "A recording of every lecture, so you can learn at your own pace and come back whenever you need."
+      }
+    ]
+  },
+  "footer": {
+    "credits": "The learning material is based on <odin>The Odin Project</odin>, translated and adapted, with additions for working with AI. It is published under the <license>CC BY-NC-SA 4.0</license> license.",
+    "tagline": "Moba · free coding school"
+  }
+}
