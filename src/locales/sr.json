@@ -7,6 +7,7 @@
     "problem": "Problem",
     "pillars": "Kako radimo",
     "plan": "Plan",
+    "program": "Program",
     "ai": "AI first",
     "projects": "Projekti",
     "live": "Uživo",
@@ -119,6 +120,113 @@
           "Iskustvo rešavanja problema koji zaista postoji.",
           "Uvid u ceo put projekta, od nule do puštanja u rad.",
           "Projekat koji možeš da pokažeš na razgovoru za posao."
+        ]
+      }
+    ]
+  },
+  "program": {
+    "label": "Program",
+    "title": "Edukacija u četiri etape",
+    "intro": "Prva faza je podeljena u četiri etape. Svaka se nadovezuje na prethodnu i završava se projektima koje praviš sam, uz Claude framework. Kreneš od toga kako veb radi, a stigneš do full-stack aplikacije.",
+    "topicsLabel": "Šta učiš",
+    "projectsLabel": "Šta praviš",
+    "outro": "Posle četvrte etape počinje faza 2: zajedno pravimo prave projekte.",
+    "disclaimer": "Plan nije konačan. Do početka predavanja etape, teme i projekti mogu da se promene.",
+    "stages": [
+      {
+        "tag": "Etapa 1",
+        "title": "Osnove",
+        "subtitle": "Od nule do prve interaktivne stranice.",
+        "text": "Postavljaš alate i učiš kako veb radi. Pišeš prve stranice u HTML-u i CSS-u, a onda ih oživljavaš JavaScriptom.",
+        "topics": [
+          "Kako radi internet",
+          "Komandna linija",
+          "Git i GitHub",
+          "HTML",
+          "CSS i box model",
+          "Flexbox",
+          "Osnove JavaScripta",
+          "DOM i događaji",
+          "Rešavanje problema"
+        ],
+        "projects": [
+          "Sajt sa receptima",
+          "Landing stranica po gotovom dizajnu",
+          "Kamen, papir, makaze",
+          "Etch-a-Sketch",
+          "Kalkulator"
+        ]
+      },
+      {
+        "tag": "Etapa 2",
+        "title": "JavaScript",
+        "subtitle": "Od skripte do uređene aplikacije.",
+        "text": "Učiš da pišeš kod koji raste bez haosa: objekti, klase i moduli, alati koje koriste profesionalci, rad sa API-jima i testovi. Na kraju dolaze algoritmi i strukture podataka.",
+        "topics": [
+          "Objekti i klase",
+          "Moduli i npm",
+          "Webpack",
+          "JSON",
+          "Asinhroni kod",
+          "Rad sa API-jima",
+          "Validacija formi",
+          "Testiranje",
+          "Rekurzija",
+          "Algoritmi i strukture podataka"
+        ],
+        "projects": [
+          "Biblioteka",
+          "Iks-oks",
+          "Stranica restorana",
+          "Todo lista",
+          "Vremenska prognoza",
+          "Povezana lista, heš mapa i binarno stablo",
+          "Potapanje brodova, vođeno testovima"
+        ]
+      },
+      {
+        "tag": "Etapa 3",
+        "title": "React",
+        "subtitle": "Korisnički interfejsi kakvi se danas prave.",
+        "text": "Prelaziš na biblioteku kojom se pravi veliki deo današnjih veb aplikacija. Učiš da aplikaciju razložiš na komponente, upravljaš stanjem i povežeš više stranica.",
+        "topics": [
+          "Komponente i JSX",
+          "Props",
+          "Stanje i efekti",
+          "React Router",
+          "Preuzimanje podataka",
+          "Stilizovanje",
+          "Context API",
+          "Testiranje komponenti"
+        ],
+        "projects": [
+          "CV aplikacija",
+          "Igra memorije",
+          "Online prodavnica sa korpom"
+        ]
+      },
+      {
+        "tag": "Etapa 4",
+        "title": "Node.js i baze podataka",
+        "subtitle": "Server, baza i aplikacija na internetu.",
+        "text": "Pišeš serverski deo aplikacije: kako se podaci čuvaju, kako se korisnici prijavljuju i kako aplikacija stiže na internet. Etapa se završava velikim full-stack projektom.",
+        "topics": [
+          "Baze podataka i SQL",
+          "Node.js",
+          "Express",
+          "PostgreSQL",
+          "Prisma ORM",
+          "Autentifikacija",
+          "REST API",
+          "Puštanje u rad"
+        ],
+        "projects": [
+          "Tabla sa porukama",
+          "Aplikacija za magacin",
+          "Klub samo za članove",
+          "Skladište fajlova",
+          "API za blog",
+          "Društvena mreža, završni projekat"
         ]
       }
     ]

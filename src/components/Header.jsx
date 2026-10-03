@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { LANGUAGES } from '../i18n';
 import Logo from './Logo';
 
-const NAV = ['problem', 'pillars', 'plan', 'ai', 'projects', 'live'];
+const NAV = ['problem', 'pillars', 'plan', 'program', 'ai', 'projects', 'live'];
 
 export default function Header() {
   const { t, i18n } = useTranslation();

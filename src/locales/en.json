@@ -7,6 +7,7 @@
     "problem": "Problem",
     "pillars": "How we work",
     "plan": "Plan",
+    "program": "Program",
     "ai": "AI first",
     "projects": "Projects",
     "live": "Live",
@@ -119,6 +120,113 @@
           "Experience solving a problem that actually exists.",
           "A view of a project's whole journey, from scratch to launch.",
           "A project you can show in a job interview."
+        ]
+      }
+    ]
+  },
+  "program": {
+    "label": "Program",
+    "title": "Learning in four stages",
+    "intro": "The first phase is split into four stages. Each builds on the one before and ends with projects you build on your own, with the Claude framework. You start with how the web works and finish with a full-stack application.",
+    "topicsLabel": "What you learn",
+    "projectsLabel": "What you build",
+    "outro": "After the fourth stage, phase 2 begins: we build real projects together.",
+    "disclaimer": "This plan isn't final. Stages, topics and projects may change before the lectures begin.",
+    "stages": [
+      {
+        "tag": "Stage 1",
+        "title": "Foundations",
+        "subtitle": "From zero to your first interactive page.",
+        "text": "You set up your tools and learn how the web works. You write your first pages in HTML and CSS, then bring them to life with JavaScript.",
+        "topics": [
+          "How the web works",
+          "Command line",
+          "Git and GitHub",
+          "HTML",
+          "CSS and the box model",
+          "Flexbox",
+          "JavaScript basics",
+          "DOM and events",
+          "Problem solving"
+        ],
+        "projects": [
+          "Recipe site",
+          "Landing page from a design",
+          "Rock, paper, scissors",
+          "Etch-a-Sketch",
+          "Calculator"
+        ]
+      },
+      {
+        "tag": "Stage 2",
+        "title": "JavaScript",
+        "subtitle": "From a script to a well-organized app.",
+        "text": "You learn to write code that grows without chaos: objects, classes and modules, the tools professionals use, working with APIs, and tests. Algorithms and data structures come at the end.",
+        "topics": [
+          "Objects and classes",
+          "Modules and npm",
+          "Webpack",
+          "JSON",
+          "Asynchronous code",
+          "Working with APIs",
+          "Form validation",
+          "Testing",
+          "Recursion",
+          "Algorithms and data structures"
+        ],
+        "projects": [
+          "Library",
+          "Tic-tac-toe",
+          "Restaurant page",
+          "Todo list",
+          "Weather app",
+          "Linked list, hash map and binary search tree",
+          "Battleship, test-driven"
+        ]
+      },
+      {
+        "tag": "Stage 3",
+        "title": "React",
+        "subtitle": "User interfaces the way they are built today.",
+        "text": "You move to the library behind a large share of today's web apps. You learn to break an app into components, manage state and connect multiple pages.",
+        "topics": [
+          "Components and JSX",
+          "Props",
+          "State and effects",
+          "React Router",
+          "Fetching data",
+          "Styling",
+          "Context API",
+          "Testing components"
+        ],
+        "projects": [
+          "CV application",
+          "Memory game",
+          "Online shop with a cart"
+        ]
+      },
+      {
+        "tag": "Stage 4",
+        "title": "Node.js and databases",
+        "subtitle": "A server, a database and an app on the internet.",
+        "text": "You write the server side of an application: how data is stored, how users log in and how the app gets online. The stage ends with a large full-stack project.",
+        "topics": [
+          "Databases and SQL",
+          "Node.js",
+          "Express",
+          "PostgreSQL",
+          "Prisma ORM",
+          "Authentication",
+          "REST APIs",
+          "Deployment"
+        ],
+        "projects": [
+          "Message board",
+          "Inventory app",
+          "Members-only club",
+          "File uploader",
+          "Blog API",
+          "Social network, the final project"
         ]
       }
     ]

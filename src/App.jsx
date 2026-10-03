@@ -4,6 +4,7 @@ import Name from './components/Name';
 import Problem from './components/Problem';
 import Pillars from './components/Pillars';
 import Plan from './components/Plan';
+import Curriculum from './components/Curriculum';
 import AiFirst from './components/AiFirst';
 import Projects from './components/Projects';
 import Live from './components/Live';
@@ -19,6 +20,7 @@ export default function App() {
         <Problem />
         <Pillars />
         <Plan />
+        <Curriculum />
         <AiFirst />
         <Projects />
         <Live />
